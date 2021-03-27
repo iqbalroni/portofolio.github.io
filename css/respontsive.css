@@ -19,7 +19,15 @@
 
     .banner .jumbotron .text {
         margin-top: 40px;
+    }
 
+    .banner .jumbotron .btn {
+        font-size: 10px;
+    }
+
+    .banner .jumbotron .text .btn i {
+        width: 5px;
+        height: 5px;
     }
 
     .banner .jumbotron .lead,
