@@ -1,0 +1,187 @@
+@media screen and (max-width:680px) {
+    .navbar-brand {
+        color: #F19D15;
+    }
+
+    .navbar {
+        background-color: white;
+    }
+
+    /* jumbotron */
+    .jumbotron {
+        height: auto;
+    }
+
+    .qoutes h1 {
+        font-size: 40px;
+    }
+
+    .qoutes .lead {
+        margin-top: 10px;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    /* services */
+
+    .services {
+        height: auto;
+    }
+
+    .services .rounded {
+        margin-top: 20px;
+        width: 80%;
+        position: static;
+        float: none;
+    }
+
+    .services .customer {
+        position: static;
+        padding-left: 50px;
+    }
+
+    .services .customer h1 {
+        font-size: 40px;
+    }
+
+    .services .customer .lead {
+        width: 90%;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .services .customer button {
+        margin-bottom: 20px;
+    }
+
+    /* about */
+    .about {
+        width: 100%;
+        height: auto;
+    }
+
+    .team h1 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .team .lead {
+        width: 100%;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .about .row {
+        margin-top: 0;
+    }
+
+    .about .container {
+        width: 85%;
+    }
+
+    .about .card img {
+        width: 30%;
+        padding: 5px;
+    }
+
+    .about .card {
+        background-color: #f7f7f7;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    .about .card-title {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .about .card-text {
+        font-size: 15px;
+    }
+
+    .about .card .btn {
+        margin: 0;
+        font-size: 12px;
+        width: 100px;
+    }
+
+    /* contact */
+    .contact {
+        height: auto;
+    }
+
+    .word h1 {
+        margin: 0;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .word .lead {
+        font-size: 14px;
+    }
+
+    .word .lead svg {
+        margin-left: 10px;
+    }
+
+    .contact .row {
+        margin-top: 0;
+    }
+
+    .contact .row img {
+        width: 150px;
+    }
+
+    .contact .btn {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .contact form input {
+        font-size: 10px;
+    }
+
+    .contact form textarea {
+        font-size: 10px;
+    }
+
+    /* footer */
+    .footer {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer .container {
+        width: 80%;
+    }
+
+    .footer hr {
+        background-color: #abdaf7;
+    }
+
+    .footer .row {
+        margin-top: 50px;
+    }
+
+    .footer .lead {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    .footer img {
+        width: 80px;
+    }
+
+    .col-md-4 h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .col-md-2 h4 {
+        font-size: 18px;
+    }
+
+    .col-md-2 ul li a {
+        font-size: 15px;
+    }
+}

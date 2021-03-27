@@ -1,0 +1,86 @@
+body {
+    background: url('../img/background.jpg');
+    margin: 0;
+}
+
+.input-group-append button,
+.collapse button,
+.btn-group .active {
+    border-color: #244e32;
+    background-color: #244e32;
+    color: white;
+}
+
+.btn-group button {
+    border: none;
+    color: #ffffff;
+    background-color: #295939;
+}
+
+.input-group-append button:hover,
+.collapse button:hover {
+    background-color: transparent;
+    border-color: #244e32;
+    color: #244e32;
+}
+
+.card button {
+    border-color: #244e32;
+    color: #244e32;
+}
+
+.card button:hover {
+    background-color: #244e32;
+    color: white;
+}
+
+* {
+    font-family: 'barlow';
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+
+.navbar .navbar-brand {
+    font-weight: 500;
+    color: #244e32;
+}
+
+.navbar {
+    background: #ffffff;
+}
+
+.collapse ul li a {
+    color: #244e32;
+}
+
+.sticky {
+    box-shadow: 0px 0px 10px 2px #b4b4b4;
+}
+
+/* end navbar */
+.footer .jumbotron {
+    background-color: #295939;
+    margin-bottom: 0;
+}
+
+.copyright {
+    background-color: #244e32;
+    height: 30px;
+}
+
+.footer {
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer ul {
+    cursor: pointer;
+}
+
+.copyright p {
+    color: #ffffff;
+}

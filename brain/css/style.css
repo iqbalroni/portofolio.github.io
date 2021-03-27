@@ -1,0 +1,393 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    z-index: 1000;
+    margin-top: 10px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.navbar img {
+    margin-right: 10px;
+}
+
+.sticky {
+    background-color: white;
+    margin: 0;
+    box-shadow: 0px 0px 10px 2px #e3e3e3;
+}
+
+.navbar .nav-link {
+    color: #373a40;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.sticky .nav-link {
+    color: #F19D15;
+}
+
+.navbar-brand {
+    color: #F19D15;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.navbar .btn {
+    background-color: #C31D10;
+    border-radius: 25px;
+    transition: 0.2s;
+    color: #ffffff;
+    font-weight: 550;
+}
+
+
+
+
+/* content */
+.jumbotron {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.jumbotron .rounded {
+    width: 36%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px;
+    margin-top: 125px;
+    margin-right: 50px;
+}
+
+.qoutes {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.qoutes h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 600;
+    color: #373a40;
+    letter-spacing: 1px;
+}
+
+.qoutes .lead {
+    color: #373a40;
+    margin-top: 20px;
+    width: 45%;
+}
+
+.qoutes button {
+    background-color: #C31D10;
+    width: 200px;
+    border-radius: 25px;
+    height: 50px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: white;
+    transition: 1s;
+}
+
+.qoutes button:focus,
+.services .customer button:focus {
+    background-color: #F19D15;
+    width: 210px;
+}
+
+
+/* our services */
+.our {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.our h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: #373a40;
+    letter-spacing: 1px;
+    padding-top: 100px;
+}
+
+.our .lead {
+    color: #373a40;
+    margin-top: 10px;
+}
+
+.services .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .card {
+    background-color: #ffffff;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+
+.services .card:hover img {
+    width: 58%;
+}
+
+
+.services .card img {
+    width: 50%;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.services .card-title {
+    font-weight: 600;
+    color: #373a40;
+    letter-spacing: 1px;
+}
+
+.services .card-text {
+    color: #373a40;
+}
+
+/* services */
+.services {
+    width: 100%;
+    height: 200vh;
+    background-color: #f7f7f7;
+}
+
+.services .rounded {
+    width: 38%;
+    position: absolute;
+    top: 210vh;
+    left: 0;
+}
+
+.services .customer {
+    position: absolute;
+    top: 230vh;
+    right: 120px;
+}
+
+.services .customer h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 600;
+    color: #373a40;
+    letter-spacing: 1px;
+}
+
+.services .customer .lead {
+    width: 550px;
+    color: #373a40;
+    margin-top: 20px;
+}
+
+.services .customer button {
+    background-color: #C31D10;
+    width: 200px;
+    border-radius: 25px;
+    height: 50px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #adadad;
+    transition: 0.5s;
+}
+
+
+/* about */
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+}
+
+.team h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: #373a40;
+    letter-spacing: 1px;
+    padding-top: 100px;
+}
+
+.team .lead {
+    color: #373a40;
+    margin-top: 10px;
+}
+
+.about .row {
+    margin-top: 40px;
+}
+
+.about .card {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+.about .card img {
+    width: 180px;
+    padding: 10px;
+}
+
+.about .card .btn {
+    border-radius: 25px;
+    background-color: #C31D10;
+    color: white;
+    width: 130px;
+    transition: 1s;
+}
+
+.about .card .btn:focus {
+    background-color: #609dbf;
+    color: #abdaf7;
+    width: 140px;
+}
+
+.about .card-title {
+    font-weight: 600;
+    color: #373a40;
+    letter-spacing: 1px;
+}
+
+.about .card-text {
+    color: #373a40;
+    letter-spacing: 1px;
+}
+
+
+/* contact */
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.word h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: #373a40;
+    letter-spacing: 1px;
+    padding-top: 100px;
+}
+
+.word .lead {
+    font-size: 17px;
+    font-weight: 400;
+    color: #373a40;
+    margin-top: 10px;
+}
+
+.word .lead svg {
+    margin-left: 20px;
+    width: 1em;
+    height: 1em;
+}
+
+.contact .row {
+    margin-top: 100px;
+}
+
+.contact .row img {
+    padding: 10px;
+    width: 100%;
+}
+
+.contact .btn {
+    border: none;
+    border-radius: 25px;
+    background-color: #C31D10;
+    color: white;
+    transition: 1s;
+}
+
+.contact form input {
+    border: 2px solid #F19D15;
+    color: #448199;
+}
+
+.contact form textarea {
+    border: 2px solid #F19D15;
+}
+
+.contact .btn:focus {
+    background-color: #609dbf;
+    color: #abdaf7;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 40vh;
+    background-color: #fff;
+}
+
+.footer hr {
+    background-color: whitesmoke;
+}
+
+.footer .row {
+    margin-top: 50px;
+}
+
+.footer .lead {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #C31D10;
+    margin-top: 10px;
+}
+
+.footer img {
+    width: 100px;
+}
+
+.col-md-4 h1 {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 600;
+    color: #F19D15;
+    letter-spacing: 1px;
+}
+
+.col-md-2 h4 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #F19D15;
+    letter-spacing: 2px;
+}
+
+.col-md-2 ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.col-md-2 ul li a {
+    color: #373a40;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

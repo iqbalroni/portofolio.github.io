@@ -1,0 +1,22 @@
+@media only screen and (max-width: 680px) {
+    .banner .text {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #295939;
+    }
+
+    .banner .display-4 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .copyright {
+        background-color: #244e32;
+        height: 30px;
+    }
+
+    .banner .carousel img {
+        width: 70%;
+        text-align: center;
+    }
+}

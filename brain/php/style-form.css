@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    /* #C31D10
+    #F19D15 kuning
+    #373a40 hitam*/
+}
+
+.box {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 100vh;
+    background-color: #373a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login {
+    position: relative;
+    display: flex;
+    min-width: 60%;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    width: 80%;
+}
+
+form h1 {
+    margin-bottom: 20px;
+    color: #373a40;
+}
+
+form input {
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F19D15;
+    text-align: center;
+    color: #373a40;
+    transition: 0.5s;
+}
+
+form input:focus {
+    width: 85%;
+}
+
+form button {
+    width: 60%;
+    height: 40px;
+    margin: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #C31D10;
+    transition: 0.5s;
+    color: white;
+}
+
+form button:focus {
+    width: 60%;
+}
+
+form a {
+    position: absolute;
+    bottom: 70px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: #C31D10;
+}
