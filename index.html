@@ -1,61 +1,308 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="border">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+
+    <!-- link my css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- link responsive -->
+    <link rel="stylesheet" href="css/respontsive.css">
+
+    <!-- link font -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+
+    <!-- aos -->
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!-- darkmode -->
+    <link rel="stylesheet" href="css/dark-mode.css">
+    
+    <link rel="icon" href="img/logo.png">
+    <title>M  Iqbal Roni saputra</title>
+  </head>
+  <body data-spy="scroll" data-target="#scroll-ku" data-offset="1">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" data-aos="fade-down" id="scroll-ku">
         <div class="container">
-            <form name="form">
-    
-                <input type="text" name="hasil" class="hasil">
-    
-            </form>
-    
-            <table>
-                <br>
-    
-                <tr>
-                    <td><input type="button" class="button" value="C" onclick="clean()"></td>
-                    <td><input type="button" class="button" value="<" onclick="back()"></td>
-                    <td><input type="button" class="button" value="/" onclick="insert('/')"></td>
-                    <td><input type="button" class="button" value="*" onclick="insert('*')"></td>
-                </tr>
-    
-                <tr>
-                    <td><input type="button" class="button" value="7" onclick="insert(7)"></td>
-                    <td><input type="button" class="button" value="8" onclick="insert(8)"></td>
-                    <td><input type="button" class="button" value="9" onclick="insert(9)"></td>
-                    <td><input type="button" class="button" value="-" onclick="insert('-')"></td>
-                </tr>
-    
-                <tr>
-                    <td><input type="button" class="button" value="4" onclick="insert(4)"></td>
-                    <td><input type="button" class="button" value="5" onclick="insert(5)"></td>
-                    <td><input type="button" class="button" value="6" onclick="insert(6)"></td>
-                    <td><input type="button" class="button" value="+" onclick="insert('+')"></td>
-                </tr>
-    
-                <tr>
-                    <td><input type="button" class="button" value="3" onclick="insert(3)"></td>
-                    <td><input type="button" class="button" value="2" onclick="insert(2)"></td>
-                    <td><input type="button" class="button" value="1" onclick="insert(1)"></td>
-                    <td rowspan="5"><input style="height: 110px; background-color: #d44000;" type="button" class="button" value="=" onclick="equal()"></td>
-                </tr>
-    
-                <tr>
-                    <td colspan="2"><input style="width: 110px;" type="button" class="button" value="0" onclick="insert(0)"></td>
-                    <td><input type="button" class="button" value="." onclick="insert('.')"></td>
-                </tr>
-            </table>
+          <a class="navbar-brand" href="#">
+            <i class="fas fa-user-graduate"></i>
+            Portofolio
+          </a>
+
+            <input type="checkbox" class="custom-control-input bg-danger" id="darkSwitch">
+
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fitur">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn nav-link rounded-pill" href="#contact" role="button">Contact Us</a>
+            </li>
+          </ul>
         </div>
+        </div>
+    </nav>
+
+    <!-- dark mode -->
+    <div class="buttondark">
+      <label for="darkSwitch"><i class="fas fa-moon fa-2x "></i></label>
     </div>
 
-    <script src="main.js"></script>
-</body>
+    <!-- banner -->
+    <div class="banner" id="home">
+      <div class="jumbotron d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="text pr-2" data-aos="fade-down">
+                <h1 class="display-4">Hallo, Nama ku</h1>
+                <h1 class="display-4">M Iqbal Roni Saputra</h1>
+                <hr class="my-4">
+                <p class="lead">BackEnd Development dan FrontEnd Development.</p>
+                <a class="btn btn-md rounded-pill" href="#fitur" role="button">Learn more</a>
+                <a class="btn btn-md rounded-circle" href="#" data-toggle="modal" data-target="#staticBackdrop"><i class="fas fa-angle-right"></i></a>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center" data-aos="fade-up">
+              <img src="img/1.png" class="m-0 p-0" >
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="portofolio" id="portofolio">
+      <div class="jumbotron text-center">
+        <div class="container">
+          <h1 class="display-4" ><b>Porto</b><b class="bg-1">folio</b></h1>
+          <div class="row mt-3">
+            <div class="col-md-4">
+              <div class="card mb-4" data-aos="fade-up" data-aos-duration="2000">
+                <img src="img/portofolio/web_batikKu.png" class="card-img-top p-2">
+                <div class="card-body">
+                  <h5 class="card-title"> BatikKu</h5>
+                  <a href="BatikKu/index.html" class="btn btn-primary rounded-pill">Kunjungi</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4" data-aos="fade-down" data-aos-duration="2000">
+                <img src="img/portofolio/web_brains.png" class="card-img-top p-2">
+                <div class="card-body">
+                  <h5 class="card-title">BRAIN</h5>
+                  <a href="brain/index.html" class="btn btn-primary rounded-pill">Kunjungi</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4" data-aos="fade-up" data-aos-duration="2000">
+                <img src="img/portofolio/web_perpustakaan.png" class="card-img-top p-2">
+                <div class="card-body">
+                  <h5 class="card-title">Perpustakaan</h5>
+                  <a href="#" class="btn btn-primary rounded-pill">Kunjungi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fitur" id="fitur">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6 text-center" data-aos="fade-up" data-aos-duration="3000">
+              <img src="img/2.png">
+            </div>
+            <div class="col-md-6">
+              <h1 class="display-4" ><b class="bg-3">Fitur</b> <b class="bg-2">Saya</b></h1>
+              <p class="lead">Menyediakan fitur full stack website di antaranya design website,FrontEnd,BackEnd dan database.</p>
+              
+              <div class="box">
+                <div class="row">
+
+                  <div class="col-md-6">
+                    <div class="card text-center mb-4">
+                      <div class="card-body">
+                        <i class="fas fa-paint-brush fa-2x p-2"></i>
+                        <h5 class="card-title">Design FrontEnd</h5>
+                        <p class="card-text">design frontend dengan minimalis</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card text-center mb-4">
+                      <div class="card-body">
+                        <i class="fas fa-code fa-2x p-2"></i>
+                        <h5 class="card-title">Developer FrontEnd</h5>
+                        <p class="card-text">Menggunakan framework bootstrap</p>
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+                <div class="row">
+  
+                  <div class="col-md-6">
+                    <div class="card text-center mb-4">
+                      <div class="card-body">
+                        <i class="fas fa-cogs fa-2x p-2"></i>
+                        <h5 class="card-title">Developer BackEnd</h5>
+                        <p class="card-text">backend menggunakan framework Laravel</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card text-center mb-4">
+                      <div class="card-body">
+                        <i class="fas fa-database fa-2x p-2"></i>
+                        <h5 class="card-title">DataBases</h5>
+                        <p class="card-text">Membuat konsep database dan fitur fitur</p>
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact" id="contact">
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-4 text-center mb-3" ><b class="bg-3">Contact</b> <b class="bg-1">Me</b></h1>
+          <div class="row d-flex align-items-center">
+            <div class="col-md-4">
+
+              <div class="box1">
+                <h4><i class="fas fa-paper-plane"></i> Lokasi saya</h4>
+                <p>Indonesia - Jatim</p>
+              </div>
+              <div class="box1">
+                <h4><i class="fas fa-envelope"></i> Email saya</h4>
+                <p>Roniesaputra92@gmail.com</p>
+              </div>
+              <div class="box1">
+                <h4><i class="fas fa-phone"></i> Telp saya</h4>
+                <p>+62 812 3085 9***</p>
+              </div>
+            </div>
+
+            <div class="col-md-8">
+              <form>
+                <div class="row ">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                    <input placeholder="Nama" type="text" class="form-control rounded-pill" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                    <input placeholder="Email" type="text" class="form-control rounded-pill" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <input placeholder="Nomer Hp" type="text" class="form-control rounded-pill" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                
+                  <div class="form-group">
+                    <textarea placeholder="Pesan" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+
+                  <div class="form-group">
+                    <button type="reset" class="btn rounded-pill mr-2">Reset <i class="fas fa-reply"></i></button>  
+                    <button type="button" class="btn rounded-pill">Kirim <i class="fas fa-paper-plane"></i></button>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="jumbotron">
+        <div class="container text-center">
+          <p class="lead">&copy Copyright by Roniesaputra | CodingSkuy</p>
+          
+            <label for="darkSwitch"><i class="fas fa-moon fa-2x"></i></label>
+
+          <p class="lead">Follow Us</p>
+          <a href="https://www.instagram.com/iqbalronii/"><i class="fab fa-facebook-f fa-2x"></i></a>
+          <a href="https://www.instagram.com/iqbalronii/"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="https://github.com/iqbalroni"><i class="fab fa-github fa-2x"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=6281230859677"><i class="fab fa-whatsapp fa-2x"></i></a>
+          <p class="lead">Roniesaputra92@gmail.com</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">ProfilKu</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="img/me.png" alt="">
+            <h4>Mochammad iqbal roni s</h4>
+            <h4>21 - 01 - 04</h4>
+            <h4>Indonesia - Bondowoso</h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn rounded-pill" data-dismiss="modal">Keluar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/dark-mode-switch.js"></script>
+    <script>
+      // navbar
+      window.addEventListener("scroll", function () {
+            var header = document.querySelector(".navbar");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+      AOS.init({
+          duration: 1500,
+      });
+    </script>
+  </body>
 </html>
